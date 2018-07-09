@@ -1,0 +1,4 @@
+Name : "Agar Gel Electroporesis"
+Duration : "00:30:00"
+Description : "Size seperation of DNA using electrical current applied to an agar gel."
+Reagents : "Agar, 0.3 g", "TAE, 30 ul", "Ethidium Bromide, 1.5 ul", "Running Buffer, 1000 ul", "Loading Dye, 5 ul", "Ladder, 4 ul", "DNA Sample, 5 ul"

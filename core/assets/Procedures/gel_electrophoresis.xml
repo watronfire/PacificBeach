@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Procedure>
+    <Name>Agar Gel Electrophoresis</Name>
+    <Reagents>
+        <Chemical>
+            <Name>Agar</Name>
+            <Amount>0.3 g</Amount>
+        </Chemical>
+        <Chemical>
+            <Name>TAE</Name>
+            <Amount>30 ul</Amount>
+        </Chemical>
+        <Chemical>
+            <Name>Ethidium Bromide</Name>
+            <Amount>1.5 ul</Amount>
+        </Chemical>
+        <Chemical>
+            <Name>Running Buffer</Name>
+            <Amount>1.5 ul</Amount>
+        </Chemical>
+        <Chemical>
+            <Name>Loading Dye</Name>
+            <Amount>5 ul</Amount>
+        </Chemical>
+        <Chemical>
+            <Name>Ladder</Name>
+            <Amount>4 ul</Amount>
+        </Chemical>
+        <Input>
+            <Name>DNA Sample</Name>
+            <Amount>5 ul</Amount>
+            <Number>1</Number>
+        </Input>
+    </Reagents>
+    <Equipment>
+        <Machine>
+            <Name>Microwave</Name>
+        </Machine>
+        <Machine>
+            <Name>Power Source</Name>
+            <Settings>
+                <Voltage>100 V</Voltage>
+                <Time>00:30:00</Time>
+                <Current>50 A</Current>
+                <Constant>Voltage</Constant>
+            </Settings>
+        </Machine>
+        <Machine>
+            <Name>UV Light Source</Name>
+            <Settings>None</Settings>
+        </Machine>
+        <Object>
+            <Name>Gel Box</Name>
+            <Size>Small</Size>
+        </Object>
+        <Object>
+            <Name>CastingTray</Name>
+            <Size>Small</Size>
+        </Object>
+        <Object>
+            <Name>Comb</Name>
+        </Object>
+        <Glassware>
+            <Name>Flask</Name>
+            <Size>50 ml</Size>
+        </Glassware>
+    </Equipment>
+    <Step name = "Prepare agarose gel">
+        <time>00:20:00</time>
+        <Include>
+            <Reagent>Agar</Reagent>
+            <Reagent>TAE</Reagent>
+            <Equipment>Microwave</Equipment>
+            <Equipment>Casting Tray</Equipment>
+            <Equipment>Comb</Equipment>
+            <Equipment>Flask</Equipment>
+        </Include>
+        <description>
+            Mix agar and TAE in flask and microwave for specified amount of time. While cooling, add Ethidium Bromide
+            and pour into casting tray. Add Comb and allow to cool.
+        </description>
+    </Step>
+</Procedure>
